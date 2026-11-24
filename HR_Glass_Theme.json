@@ -1,0 +1,38 @@
+{
+  "name": "HR Glass Dark",
+  "dataColors": ["#7C5CFF","#00C8FF","#FF50A0","#00E6BE","#FFBE3C","#5B8CFF","#FF7A59","#A3E635"],
+  "background": "#0B1020",
+  "foreground": "#F2F4FF",
+  "tableAccent": "#7C5CFF",
+  "good": "#00E6BE",
+  "neutral": "#FFBE3C",
+  "bad": "#FF5A7A",
+  "maximum": "#FF50A0",
+  "center": "#7C5CFF",
+  "minimum": "#00C8FF",
+  "textClasses": {
+    "callout": {"fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF"},
+    "title": {"fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#D7DBF5"},
+    "header": {"fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#D7DBF5"},
+    "label": {"fontSize": 10, "fontFace": "Segoe UI", "color": "#B8BEDF"}
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{"show": false}],
+        "border": [{"show": false}],
+        "visualHeader": [{"show": false}],
+        "title": [{"show": true, "fontColor": {"solid": {"color": "#D7DBF5"}}, "fontSize": 12, "fontFamily": "Segoe UI Semibold"}],
+        "categoryAxis": [{"labelColor": {"solid": {"color": "#B8BEDF"}}, "gridlineShow": false}],
+        "valueAxis": [{"labelColor": {"solid": {"color": "#B8BEDF"}}, "gridlineColor": {"solid": {"color": "#FFFFFF22"}}}],
+        "legend": [{"labelColor": {"solid": {"color": "#B8BEDF"}}}],
+        "labels": [{"color": {"solid": {"color": "#F2F4FF"}}}]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#0B1020"}}, "transparency": 0}]
+      }
+    }
+  }
+}
